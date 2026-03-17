@@ -1,0 +1,133 @@
+.Head1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #222222;
+    font-size: 30px;
+    font-weight: bold;
+}
+#body{
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+#Intro{
+    text-align: center;
+    border: 3px;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 10px 10px 10px 10px;
+    color:  #333333;
+    background-color: #FFFFFF;
+    font-size: 30px;
+}
+h2{
+    text-decoration: underline;
+}
+#H2{
+    text-align: center;
+    color: #FFFFFF ;
+     font-weight: bold;
+}
+@media(max-width:767px){
+    Body{
+        background-color: #FFFFFF;
+    }
+}
+.menu{
+    padding:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#FFFFFF;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+}
+.menu-column{
+    width: 100%;
+    margin-bottom: 100px;
+    font-size: 22px;
+    color:#333333 ;
+    padding: 20px;
+}
+.menu-item{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 8px;
+}
+#Bev{
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline;
+    color: #333333;
+}
+#bev{
+    text-align: center;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#333333;
+}
+.Box{
+    border-radius: 3px 3px 3px 3px;
+    border: 5px 5px 5px 5px goldenrod;
+    box-shadow: 3px 3px 3px 3px goldenrod;
+    border-bottom: 10%;
+}
+#Cock{
+    color: crimson;
+}
+.Key li a{
+    color: #333333 ;
+    text-decoration: underline;
+    font-weight: bolder ;
+    
+}
+.Key{
+   list-style-type: none;
+   display: grid;
+   gap: 5px;
+   flex-wrap: wrap;
+   text-decoration: underline;
+   grid-template-columns: 1fr 1fr;
+   
+}
+a{
+    text-decoration: none !important;
+
+}
+.Con{
+    color: #333333;
+    text-decoration: underline;
+}
+#Wrap{
+    color: crimson;
+}
+.navbar .btn{
+    background-color: #C9A227;
+    color:#FFFFFF ;
+}
+#F{
+    text-decoration: underline;
+}
+.P{
+    color: #333333;
+}
+.menu-item span:first-child{
+    max-width: 85%;
+    word-wrap: break-word;
+}
+.menu-item span:last-child{
+   font-weight: bold;
+   white-space: nowrap;
+}
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.menu-item span{
+    display: inline;
+}
